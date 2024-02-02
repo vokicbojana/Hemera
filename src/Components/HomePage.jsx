@@ -18,7 +18,7 @@ const HomePage = () => {
                 <h2 className='bottom-text'>{naslovniTekst2}</h2>
             </div>
             <div className='overlay-image'>
-                <img className="cover-photo" src="/Assets/Images/psihologija.jpg" alt="Slika" />
+                <img className="cover-photo" src="/Assets/Images/karamelCura.png" alt="Slika" />
             </div>
         </div>
     );
