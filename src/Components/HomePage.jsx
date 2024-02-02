@@ -11,16 +11,26 @@ Započnite svoje putovanje ka unutarnjoj ravnoteži danas. Očekujemo vas sa otv
 
 const HomePage = () => {
     return (
-        <div className="home">
-            <div className='overlay-text'>
-                <h2 className='upper-text'>{naslovniTekst1}</h2>
-                <hr />
-                <h2 className='bottom-text'>{naslovniTekst2}</h2>
+        <>
+            <div className="home">
+                <div className='overlay-text'>
+                    <h2 className='upper-text'>{naslovniTekst1}</h2>
+                    <hr />
+                    <h2 className='bottom-text'>{naslovniTekst2}</h2>
+                </div>
+                <div className='overlay-image'>
+                    <img className="cover-photo" src="/Assets/Images/karamelCura.png" alt="Slika"/>
+                </div>
             </div>
-            <div className='overlay-image'>
-                <img className="cover-photo" src="/Assets/Images/karamelCura.png" alt="Slika" />
+            <div className="home2">
+                <div className='overlay-text'>
+                    <h2 className='bottom-text'>{naslovniTekst2}</h2>
+                </div>
+                <div className='overlay-image'>
+                    <img className="cover-photo" src="/Assets/Images/homepage2.png" alt="Slika" />
+                </div>
             </div>
-        </div>
+        </>
     );
 };
 

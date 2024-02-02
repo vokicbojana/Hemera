@@ -16,11 +16,16 @@ main {
     flex-direction: column;
 }
 
+.home2,
 .home {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: auto;
+}
+
+.home2{
+    flex-direction: row-reverse;
 }
 
 .overlay-text {
@@ -44,6 +49,7 @@ main {
 }
 
 @media only screen and (max-width: 900px) {
+    .home2,
     .home {
         flex-direction: column;
     }
