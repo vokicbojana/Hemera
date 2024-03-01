@@ -1,10 +1,10 @@
 .services-container {
-    max-width: 1200px;
-    margin: 0 auto;
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
   }
   
   .page-title {
@@ -16,7 +16,8 @@
   }
   
   .service-card {
-    width: calc(33.33% - 20px); /* Adjust the width as needed */
+    /* width: calc(33.33% - 20px); Adjust the width as needed */
+    margin: 0 300px;
     box-sizing: border-box;
     background-color: #f4f4f4;
     border-radius: 8px;
@@ -38,13 +39,19 @@
 
   @media (max-width: 900px) {
     .service-card {
-      width: calc(50% - 20px); /* Two cards per row on smaller screens */
+      margin: auto;
     }
   }
   
   @media (max-width: 700px) {
     .service-card {
-      width: 100%; /* One card per row on even smaller screens */
+      margin: auto;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .service-card {
+      margin: auto;
     }
   }
   

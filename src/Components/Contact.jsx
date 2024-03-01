@@ -19,13 +19,19 @@ const Contact = () => {
                     <article className="contact-info-item">
                         <FaEnvelope className="contact-icon" />
                         <p className="contact-info-text">
-                            Email: <a href="mailto:your_email@example.com" target="_blank" rel="noreferrer">your_email@example.com</a>
+                            Email: <a href="mailto:hemera.tim@gmail.com" target="_blank" rel="noreferrer">hemera.tim@gmail.com</a>
                         </p>
                     </article>
                     <article className="contact-info-item">
                         <FaPhone className="contact-icon" />
                         <p className="contact-info-text" >
-                            Broj: <a href="tel:+1-555-555-1234" target="_blank" rel="noreferrer">+1-555-555-1234</a>
+                            Kontakt Telefon(Marina): <a href="tel:+1-555-555-1234" target="_blank" rel="noreferrer">+381 69 1997 123</a>
+                        </p>
+                    </article>
+                    <article className="contact-info-item">
+                        <FaPhone className="contact-icon" />
+                        <p className="contact-info-text" >
+                            Kontakt Telefon(Kristina): <a href="tel:+1-555-555-1234" target="_blank" rel="noreferrer">+381 61 1793 177</a>
                         </p>
                     </article>
                 </section>

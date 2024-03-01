@@ -5,11 +5,14 @@
 
 .team-section {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .team-member {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     margin-bottom: 20px;
 }
 
@@ -20,17 +23,29 @@
     color: rgb(60, 60, 60);
 }
 
+.marina-text,
+.kristina-text{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .image {
     flex: 1;
-    border-radius: 50%;
     overflow: hidden;
 }
 
-img {
+.oNamaSlike{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} */
 
 hr {
     margin: 20px 0;
