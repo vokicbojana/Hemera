@@ -20,7 +20,7 @@ const MainPage = () => {
             <Route path='o-nama' element={<About />} />
             <Route path='usluge' element={<Services />} />
             <Route path='kontakt' element={<Contact />} />
-            <Route path='*' element={<Navigate to="/naslovna" />} />
+            <Route path='*' element={<Navigate to="/" />} />
           </Routes>
         </main>
         <Footer />

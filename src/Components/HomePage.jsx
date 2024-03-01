@@ -2,7 +2,7 @@ import React from "react";
 
 import './HomePage.css';
 
-let naslovniTekst1 = `Hemera, u grčkoj mitologiji, jeste boginja svitanja, svetlosti i novog početka. Njeno
+let naslovniTekst1 = `Hemera je u grčkoj mitologiji boginja svitanja, svetlosti i novog početka. Njeno
 ime simbolizuje početak puta ka uravnoteženosti i rastu, prelazak iz neizvesnosti u
 jasnoću, iz tame u svetlost.`
 let naslovniTekst2 = `Naš tim iskusnih psihologa posvećen je pružanju pažljivog i personalizovanog pristupa, koristeći raznovrsne metode i tehnike koje podržavaju vaš emotivni i mentalni balans. Bez obzira da li se suočavate sa stresom, anksioznošću, depresijom ili traumom, zajedno ćemo istražiti puteve ka emocionalnom blagostanju.
