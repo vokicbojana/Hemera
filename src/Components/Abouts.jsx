@@ -6,8 +6,8 @@ const About = () => {
     return (
         <div className="about-page">
             <div className="team-section">
-                <div className="team-member">
-                    <div className="text">
+                <div className="team-member-marina">
+                    <div className="sekcija-marina">
                         <h2>Marina Bajin</h2>
                         <p className="marina-text">Zvanje i diplomu master psihologa je stekla na Fakultetu za sport i psihologiju Tims, u
                             Novom Sadu. Član je Društva Psihologa Srbije (DPS), Evropske Federacije
@@ -39,11 +39,11 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="team-member">
+                <div className="team-member-kristina">
                     <div className="image">
                         <img className="oNamaSlike" src="/Assets/Images/profil5.jpg" alt="Team Member 2" />
                     </div>
-                    <div className="text">
+                    <div className="sekcija-kristina">
                         <h2>Kristina Tanasijin</h2>
                         <p className="kristina-text">Kristina Tanasijin je stručnjak iz oblasti psihologije i psihoterapije s višegodišnjim
                             iskustvom u pružanju podrške i terapije različitim klijentima. Njen pristup integriše
