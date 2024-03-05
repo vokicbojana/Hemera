@@ -68,14 +68,16 @@
     overflow: hidden;
 }
 
+.psiholog-naslov{
+    text-align: center;
+}
+
 .oNamaSlike {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
 }
-
-
 
 hr {
     margin: 20px 0;
@@ -107,6 +109,15 @@ hr {
         text-align: center;
     }
 
+    .psiholog-tekst{
+        font-size: 14px;
+    }
+    
+    .psiholog-naslov{
+        text-align: center;
+        font-size: 36px;
+    }
+
 
 
     .team-member-kristina .team-member-marina,
@@ -129,6 +140,15 @@ hr {
     .team-member-marina,
     .mission-member {
         flex-direction: column;
+    }
+
+    .psiholog-tekst{
+        font-size: 14px;
+    }
+    
+    .psiholog-naslov{
+        text-align: center;
+        font-size: 36px;
     }
 
 

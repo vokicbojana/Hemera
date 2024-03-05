@@ -22,9 +22,9 @@ const About = () => {
                                 contentStyle={{ maxHeight: '70vh', overflowY: 'auto' }}
                             >
                                 <div className="biografija">
-                                    <h1 style={{ textAlign: 'center' }}>Biografija</h1>
+                                    <h1 className="psiholog-naslov">Biografija</h1>
                                     <hr />
-                                    <p>
+                                    <p className="psiholog-tekst">
                                         Zvanje i diplomu master psihologa je stekla na Fakultetu za sport i psihologiju Tims, u Novom Sadu.<br /><br />
                                         Član je:
                                         <ul>
@@ -41,9 +41,9 @@ const About = () => {
                                 contentStyle={{ maxHeight: '70vh', overflowY: 'auto' }}
                             >
                                 <div>
-                                    <h1 style={{ textAlign: 'center' }}>Specijalnost</h1>
+                                    <h1 className="psiholog-naslov">Specijalnost</h1>
                                     <hr />
-                                    <p>
+                                    <p className="psiholog-tekst">
                                         Tokom akademskih i master studija, stekla je osnovna znanja iz Racionalno-emotivno-bihejvioralne
                                         terapije (REBT) i kognitivno-bihejvioralne terapije (KBT).
                                         Usled želje i potrebe za daljim učenjem i usavršavanjem, nastavlja svoj dalji profesionalni razvoj
@@ -70,11 +70,11 @@ const About = () => {
                                 contentStyle={{ maxHeight: '70vh', overflowY: 'auto' }}
                             >
                                 <div>
-                                    <h1 style={{ textAlign: 'center' }}>Pristup radu
+                                    <h1 className="psiholog-naslov">Pristup radu
 
                                     </h1>
                                     <hr />
-                                    <p>
+                                    <p className="psiholog-tekst">
                                     Veza između savetnika i klijenta, za mene, predstavlja odnos bezuslovnog prihvatanja, 
                                     zasnovan na dubokom razumevanju, nepokolebljivoj podršci i iskrenom poverenju.<br/><br/>
                                     Odnos između terapeuta i klijenta predstavlja putovanje koje podrazumeva proces učenja, 
@@ -104,9 +104,9 @@ const About = () => {
                                 contentStyle={{ maxHeight: '70vh', overflowY: 'auto' }}
                             >
                                 <div className="biografija">
-                                    <h1 style={{ textAlign: 'center' }}>Biografija</h1>
+                                    <h1 className="psiholog-naslov">Biografija</h1>
                                     <hr />
-                                    <p>
+                                    <p className="psiholog-tekst">
                                         Kristina Tanasijin je stručnjak iz oblasti psihologije i psihoterapije s višegodišnjim iskustvom u
                                         pružanju podrške i terapije različitim klijentima.<br /><br /> Kristina Tanasijin poseduje diplomu iz psihologije sa
                                         visokim ocenama, stečenu na Univerzitetu u Novom Sadu. Nakon završenih osnovnih studija, posvetila se
@@ -129,9 +129,9 @@ const About = () => {
                                 contentStyle={{ maxHeight: '70vh', overflowY: 'auto' }}
                             >
                                 <div>
-                                    <h1 style={{ textAlign: 'center' }}>Specijalnost</h1>
+                                    <h1 className="psiholog-naslov">Specijalnost</h1>
                                     <hr />
-                                    <p>
+                                    <p className="psiholog-tekst">
                                         Edukovana iz različitih terapijskih modaliteta (Transakciona analiza, Psihodinamska integrativna
                                         psihoterapija, Hipnoterapija, Regresoterapija i Integralna kauzalna psihoterapija).<br /><br />
                                         Zahvaljujući projektu podržanom od strane Agencije za bezbednost u saobraćaju,
@@ -155,10 +155,10 @@ const About = () => {
                                 contentStyle={{ maxHeight: '70vh', overflowY: 'auto' }}
                             >
                                 <div>
-                                    <h1 style={{ textAlign: 'center' }}>Pristup radu
+                                    <h1 className="psiholog-naslov">Pristup radu
                                     </h1>
                                     <hr />
-                                    <p>
+                                    <p className="psiholog-tekst">
                                         Dobro dosli!<br /><br /> Moje ime je Kristina Tanasijin akreditovani sam psihoterapeut pod
                                         supervizijom i psihoterapijski savetnik.<br /><br /> Pružam podršku svakom pojedincu u njegovom
                                         putovanju ka ličnom razvoju. U zavisnosti od potrebe klijenta koristim integrativni pristup
