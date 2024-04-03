@@ -92,7 +92,7 @@ const About = () => {
 
                 <div className="team-member-kristina">
                     <div className="image">
-                        <img className="oNamaSlike" src="/Assets/Images/profil5.jpg" alt="Team Member 2" />
+                        <img className="oNamaSlike" src="/Assets/Images/Kristina.jpg" alt="Team Member 2" />
                     </div>
                     <div className="sekcija-kristina">
                         <h2>Kristina Tanasijin</h2>

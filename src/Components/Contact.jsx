@@ -25,13 +25,13 @@ const Contact = () => {
                     <article className="contact-info-item">
                         <FaPhone className="contact-icon" />
                         <p className="contact-info-text" >
-                            Kontakt Telefon(Marina): <a href="tel:+1-555-555-1234" target="_blank" rel="noreferrer">+381 69 1997 123</a>
+                            Kontakt Telefon (Marina): <a href="tel:+1-555-555-1234" target="_blank" rel="noreferrer">+381 69 1997 123</a>
                         </p>
                     </article>
                     <article className="contact-info-item">
                         <FaPhone className="contact-icon" />
                         <p className="contact-info-text" >
-                            Kontakt Telefon(Kristina): <a href="tel:+1-555-555-1234" target="_blank" rel="noreferrer">+381 61 1793 177</a>
+                            Kontakt Telefon (Kristina): <a href="tel:+1-555-555-1234" target="_blank" rel="noreferrer">+381 61 1793 177</a>
                         </p>
                     </article>
                 </section>
